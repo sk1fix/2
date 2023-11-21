@@ -26,8 +26,11 @@ html, body {
 }
 
 .grid-item1 {  
-  padding: 20px;
+  
   font-size: 130%;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .icon{
@@ -46,4 +49,13 @@ header{
 
 .im{
   border-radius: 30%;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 39%;
+  margin-top: 1%;
+  column-gap:8%;
+  font-size: 20px;
 }
