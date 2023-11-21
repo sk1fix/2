@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+body{
+    margin: 0 2%;
+    font-family: 'Podkova',  sans-serif;
+    font-size: 130%;
+    background: url("front.jpg") ;
+    
+}
+
+.games{
+    display: grid;
+    grid-template-rows:auto auto auto;
+    row-gap:7%;
+}
+
+.first-game{
+    display: flex;
+
+}
+
+.sec-game{
+    display: flex;
+}
+
+.th-game{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 39%;
+    
+    column-gap:8%;
+    flex-direction: row;
+    column-gap:8%;
+    padding-left: 5%;
+}
+
+img{
+    width: 45%;
+    height: auto;
+    border-radius: 30%;
+}
