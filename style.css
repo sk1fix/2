@@ -1,4 +1,24 @@
 .my-info{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.first{
+    display: flex;
+    flex-direction: row
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+}
+.fifth{
+    display: flex;
+    flex-direction: row;
 }
