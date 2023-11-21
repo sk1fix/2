@@ -3,8 +3,8 @@
 body{
     margin: 0 2%;
     font-family: 'Podkova',  sans-serif;
-    font-size: 130%;
-    background: url("front.jpg") ;
+    font-size: 150%;
+    background: url("front2.jpg") ;
     
 }
 
@@ -12,34 +12,46 @@ body{
     display: grid;
     grid-template-rows:auto auto auto;
     row-gap:7%;
+    margin-top: 2%;
 }
+
+
 
 .first-game{
     display: flex;
-
+    column-gap:7%;
 }
 
 .sec-game{
     display: flex;
+    column-gap:7%;
 }
 
 .th-game{
     display: flex;
+    column-gap:7%;
 }
 
 footer{
     display: flex;
     flex-direction: row;
-    margin-left: 39%;
+    margin-left: 38%;
+    margin-top: 9%;
+    column-gap:8%;
     
-    column-gap:8%;
-    flex-direction: row;
-    column-gap:8%;
-    padding-left: 5%;
 }
 
 img{
-    width: 45%;
+    width: 300px;
     height: auto;
-    border-radius: 30%;
+    border-radius: 40%;
+    margin-right: 2%;
+}
+
+.fr, .sc, .th{
+    margin-top: 10%;
+}
+
+.sue{
+    border-radius: 50%;
 }
