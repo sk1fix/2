@@ -1,84 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 
-body{
-    margin: 0 2%;
-    font-family: 'Podkova',  sans-serif;
-    font-size: 130%;
-    background: url("phon.jpg") no-repeat;
-    background-size: cover;
+
+.grid-container {
+  display: grid;
+  column-gap: 10%;
+  row-gap:3%;
+  grid-template-columns: 70% auto auto;
+  padding: 3%;
+  font-size: 110%;
 }
 
-.my-info{
-    display: grid;
-    grid-template-rows:auto auto auto;
-    row-gap:7%;
-    
+html, body {
+  font-family: 'Podkova',  sans-serif;
+  background-image: url(front.jpg);
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 16px;
+  margin: 0;
+  color: #333333;
 }
 
-.rabot{
-    display: flex;
-    flex-direction: row;
-    column-gap:8%;
-    padding-left: 5%;
+.rabot {
+  display: flex;
+  align-items: center;
 }
 
-.first{
-    display: flex;
-    flex-direction: row;
-    margin-left: 2%;
-    column-gap:8%;
+.grid-item1 {  
+  padding: 20px;
+  font-size: 130%;
 }
 
-.second{
-    display: flex;
-    flex-direction: column;
-    
+.icon{
+  margin-right: 20px;
+  align-self: left;
 }
 
-.third{
-    display: flex;
-    flex-direction: column;
-    
-    
+header{
+  padding-left: 4%;
 }
 
-.fourth{
-    display: flex;
-    flex-direction: column;
-    
+.grid-item {
+  padding: 20px;
+  font-size: 110%;;
 }
 
-.fifth{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-img{
-    width: 14%;
-    height: 70%;
-    margin: 3%;
-    border-radius: 30%;
-}
-
-.info{
-    margin-top: 2%;
-}
-
-.second{
-    margin-top: 2%;
-}
-.time{
-    text-align: center;
-    border: 2px solid ;
-    border-radius: 60%;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-top: 4%;
-    column-gap:8%;
-    
+.im{
+  border-radius: 30%;
 }
